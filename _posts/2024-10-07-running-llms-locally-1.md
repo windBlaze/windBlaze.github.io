@@ -32,7 +32,7 @@ To understand more about the contents of the file, I feel like I need to better 
 
 For now, I used the [Binocle tool](https://github.com/sharkdp/binocle) to visualize the contents of the llama-3.2-3b-instruct-q8_0.gguf file. We see a more structured area at the beginning of the file, which holds the model metadata, and a more chaotic (higher entropy) area, which contains the contents of the tensors (model weights):
 
-![Visualization of the llama-3.2-3b-instruct-q8_0.gguf file contents](assets/images/binocle-llama.png)
+![Visualization of the llama-3.2-3b-instruct-q8_0.gguf file contents](/assets/images/binocle-llama.png)
 
 
 ## How's the GGUF file used by LM Studio?
